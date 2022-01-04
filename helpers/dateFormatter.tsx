@@ -9,7 +9,6 @@ export default function dateFormatter(date: string | number | Date) {
     // To display "0" as "12"
     hours = hours ? hours : 12;
     minutes = minutes < 10 ? '0' + minutes : minutes;
-    console.log("bangsat", t.getMonth().toString());
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
     ];
